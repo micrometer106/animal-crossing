@@ -4,7 +4,7 @@ import defaultStyles from '../../styles/default.module.css'
 const DefaultLayout = ({ children }) => (
   <div className={defaultStyles.defaultcontainer}>
     <div className={defaultStyles.sidebar}>
-          <Link href="/Guide/fishPage">
+          <Link href="/Guide/fishPage" as = {process.env.BACKEND_URL +'/Guide/fishPage'}>
             <a className={defaultStyles.a}>Fish</a>
           </Link>
           <Link href="/Guide/insectsPage">
