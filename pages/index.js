@@ -7,7 +7,7 @@ const HomePage = ({ children }) => (
     <div className="main">{children}</div>
   </div>
 );
-
+//test develop
 // class HelloUA extends React.Component {
 //   render() {
 //     return (
